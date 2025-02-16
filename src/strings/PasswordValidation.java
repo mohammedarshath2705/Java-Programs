@@ -3,7 +3,7 @@ package strings;
 import java.util.Scanner;
 
 public class PasswordValidation {
-    static final String SPECIAL_CHARACTERS = "!#$%^&*|";  // Removed ',' for correct matching
+    static final String SPECIAL_CHARACTERS = "!@#$%^&*|";  // Removed ',' for correct matching
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
